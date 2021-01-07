@@ -1,0 +1,107 @@
+
+.mainmenubtn {
+				background-color: #95bd9f;
+				color: white;
+				border: none;
+				cursor: pointer;
+				font-size: 20px;
+				margin: 10px;
+				padding: 20px;
+				float: right;
+
+				}
+
+.mainmenubtn: hover {
+					 background-color: red;
+					}
+
+.mainmenubtn:hover {
+					background-image: url("imagens/campo.png");
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-size: cover;
+					}		
+
+.dropdown {
+			position: relative;
+			display: inline-block;
+			float: right;
+			}		
+
+.dropdown-child {
+				display: none;
+				background-color: #76967e;
+				min-width: 200px;
+				}	
+
+.dropdown-child a {
+					color: white;
+					padding: 20px;
+					text-decoration: none;
+					display: block;
+					}		
+
+.dropdown:hover .dropdown-child{
+								display: block;
+								}											
+
+.cabeçalho {
+			background-color: #76967e;
+			width: 100%;
+			height: 80px;
+			margin: 0px;
+			display: inline-block;
+			padding: 0px;
+			float: center;
+}
+
+.fundo {
+		background-image: url("imagens/fundo.png");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.teste {
+	background-image: url("imagens/capacafe.jpg");
+	background-size: 100%;
+	margin: 0px;
+	display: inline-block;
+	padding: 0px;
+
+}
+
+
+.container {
+			width:500%;
+			height: 100vh;
+			animation: changeBackground 30s  infinite;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+} 
+@keyframes changeBackground{
+	0% {
+		background-image: url("imagens/fundo.jpg");
+	}
+	50% {
+		background-image: url("imagens/mesa1.jpg");
+	}
+	100%{
+		background-image: url("imagens/mesa10.jpg");
+	}
+}
+
+
+
+
+
+
+
+
+
+
